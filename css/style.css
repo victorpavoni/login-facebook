@@ -1,0 +1,293 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+html, body {
+	height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.header {
+	width: 100%;
+	background-color: #3b5998;
+	float: left;
+	padding: 8px 0;
+	height: 82px;
+	color: #fff;
+}
+.header-title a {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 40px;
+	line-height: 82px;
+}
+.header-title{
+	float: left;
+}
+.form-login {
+	float: right;
+	margin-right: 60px; 
+	margin-top: -10px;
+}
+
+.center {
+	max-width: 980px;
+	width: 100%;
+	margin: auto;
+}
+.login {
+	display: inline-block;
+}
+.clear {
+	clear: both;
+}
+.forget {
+	color: #9cb4d8;
+	text-decoration: none;
+	display: block;
+	padding: 2px 0;
+	width: 150px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.forget:hover {
+	text-decoration: underline;
+}
+.form-login input[type="submit"] {
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	padding: 2px 6px;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 2px; 
+	margin-top: 2px; 
+}
+.form-login input[type="submit"]:hover {
+	background-color: #365899;
+	border-color: #29487d; 
+	border-radius: 2px;
+}
+.form-login input[type="text"] {
+	display: inline-block;
+	width: 142px;
+	padding: 3px;
+	padding-bottom: 4px;
+}
+.login-submit, .login-senha, .login-email-tel {
+	display: inline-block;
+	margin-top: 20px;
+} 
+.login-submit span, .login-senha span, .login-email-tel span {
+	display: block;
+	padding-left: 1px;
+	font-size: 12px; 
+}
+.main {
+	background: linear-gradient(white, 	#D3D8E8);
+	padding: 40px 0;
+}
+.network {
+	width: 50%;
+	float: left;
+	position: relative;
+	top: 30px;
+}
+.network p {
+	font-size: 20px;
+	color: #0e385f;
+	font-weight: bold;
+	line-height: 29px;
+	word-spacing: -1px;
+}
+.img-network {
+	max-width: 100%;
+}
+.abrir-conta {
+	float: right;
+	position: relative;
+	top: 20px;
+}
+.abrir-conta p {
+	font-size: 19px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.abrir-conta h2 {
+	text-align: left;
+	font-weight: 600;
+	font-size: 36px;
+}
+.input-full input[type="text"]{
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	padding: 8px 10px;
+	font-size: 18px;
+	margin-top: 10px;
+	border: 1px solid #bdc7d8;
+}
+.input-split input[type="text"]{
+	border-radius: 5px;
+	padding: 8px 10px;
+	font-size: 18px;
+	border: 1px solid #bdc7d8;
+}
+.last {
+	border-radius: 5px;
+	padding: 8px 10px;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #bdc7d8;
+}
+select {
+	padding: 5px;
+}
+.input-radio {
+	font-size: 18px;
+}
+.input-radio label {
+	margin-right: 10px;
+	cursor: pointer;
+}
+.info {
+	width: 316px;
+}
+.info p {
+	margin: 1em 0;
+	font-size: 11px;
+	text-align: justify;
+	color: #777;
+}
+.info a {
+	text-decoration: none;
+	color: #385898;
+	cursor: pointer;
+}
+.submit-login input[type="submit"] {
+	width: 50%;
+	font-size: 19px;
+	background: linear-gradient(#79bc64, #578843);
+	color: #fff;
+	border: 1px solid #2c5115;
+	border-radius: 5px;
+	padding: 7px 20px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	margin: 10px 0;
+}
+.submit-login input[type="submit"]:hover {
+	background: linear-gradient(#578843, #79bc64);
+	cursor: pointer;
+}
+.criar_pag p {
+	width: 400px;
+	font-size: 13px;
+	color: #666;
+	padding-top: 10px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.criar_pag a {
+	text-decoration: none;
+}
+.footer {
+	clear: both;
+}
+.first {
+	padding-top: 8px;
+	border-bottom: 1px solid #dddfe2;
+	padding-bottom: 8px;
+}
+.footer ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.footer a {
+	text-decoration: none;
+	color: #385898;
+}
+.footer ul li:last-child {
+	margin-right: 0px;
+}
+.tags {
+	padding-top: 8px;
+}
+.tm {
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+	.header-title {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.input-split {
+		float: left;
+	}
+	.header {
+		float: none;
+		height: auto;
+	}
+	.form-login {
+		float: none;
+		margin-right: 0px; 
+		margin-top: 0;
+		text-align: center;
+	}
+	.login-email-tel, .login-senha, .login-submit {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.forget {
+		text-align: center;
+		width: 100%;
+	}
+	.network {
+		display: none;
+	}
+	.abrir-conta {
+		float: none;
+		width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.abrir-conta h2, .abrir-conta p {
+		text-align: center;
+	}
+	.input-split {
+		width: 100%;
+	}
+	.input-split input[type="text"] {
+		width: 48%;
+		float: left;
+		margin: 0 3px;
+		margin-bottom: 10px;
+	}
+	.data-nascimento {
+		text-align: center;
+		width: 100%;
+	}
+	.genero {
+		text-align: center;
+		width: 100%;
+	}
+	.info {
+		margin: auto;
+	}
+	.submit-login {
+		text-align: center;
+		width: 100%;
+	}
+	.criar_pag p {
+		width: 100%;
+		text-align: center;
+	}
+	.footer {
+		text-align: center;
+	}
+}
