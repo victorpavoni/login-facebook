@@ -65,8 +65,18 @@
 										<?php } ?>
 									</select> <!-- dia -->
 									<select name="nascimento-mes" class="nascimento" style="margin-right: -6px">
-										<!-- Aplicar php -->
 										<option value="0">Janeiro</option>
+										<option value="1">Fevereiro</option>
+										<option value="2">Março</option>
+										<option value="3">Abril</option>
+										<option value="4">Maio</option>
+										<option value="5">Junho</option>
+										<option value="6">Julho</option>
+										<option value="7">Agosto</option>
+										<option value="8">Setembro</option>
+										<option value="9">Outubro</option>
+										<option value="10">Novembro</option>
+										<option value="11">Dezembro</option>
 									</select> <!-- mes -->
 									<select name="nascimento-ano" class="nascimento" style="margin-right: -4px">
 										<?php for($i = 1905; $i <= 2020; $i++){ ?>
